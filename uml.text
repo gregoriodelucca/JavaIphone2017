@@ -1,0 +1,21 @@
++---------------------------------+
+|            Iphone               |
++---------------------------------+
+| - musica : Musica               |
+| - chamada : Chamada             |
+| - internet : Internet           |
++---------------------------------+
+| + tocarMusica()                 |
+| + pararMusica()                 |
+| + fazerChamada(numero: String)  |
+| + encerrarChamada()             |
+| + acessarInternet(url: String)  |
++---------------------------------+
+
++---------------+      +---------------+      +---------------+
+|    Musica     |      |    Chamada    |      |   Internet    |
++---------------+      +---------------+      +---------------+
+| + tocar()     |      | + ligar()     |      | + conectar()  |
+| + pausar()    |      | + desligar()  |      | + desconectar()|
+| + parar()     |      +---------------+      +---------------+
++---------------+
